@@ -5,4 +5,4 @@
 ### Resolution of images: 1920x1080
 
 
--> Lade die "get_Wallpaper.sh" herunter und führe sie im Terminal aus.
+➤-> Download the "get_Wallpaper.sh" and run it in the terminal :)
