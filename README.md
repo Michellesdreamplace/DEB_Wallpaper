@@ -10,4 +10,4 @@
   
 -➤ Öffne ein Terminal und führe das Skript mit folgendem Befehl aus:  
   
-```sudo sh ./Downloads/install_wallpaper.sh```  
+```sh ./Downloads/install_wallpaper.sh```  
