@@ -1,7 +1,7 @@
 ## Meine Hintergrundbilder, die ich unter Debian verwende  
   
 ### Stand: 28.08.2024  
-### Anzahl der Bilder: 3  
+### Anzahl der Bilder: 10  
 ### Auflösung der Bilder: 1920x1080  
   
 -➤ Lade die Datei "install_wallpaper.sh" als RAW-Datei herunter,  
