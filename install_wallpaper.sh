@@ -1,21 +1,30 @@
 #!/bin/bash
 echo "************************************************************"
 echo "    Update package database (repository index) ..."
-echo "    + Upgrade ..."
-echo "    + Clean system of useless packages ..."
 echo " ..."
-sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
+sudo apt update
 echo "************************************************************"
-echo "    install git & tar ..."
+echo "    Upgrade ..."
+echo " ..."
+sudo apt upgrade -y
+echo "************************************************************"
+echo "    Clean system of useless packages ..."
+echo " ..."
+sudo apt autoremove -y
+echo "************************************************************"
+echo "    install git ..."
 echo " ..."
 sudo apt install git -y
+echo "************************************************************"
+echo "    install tar ..."
+echo " ..."
 sudo apt install tar -y
 echo "************************************************************"
 echo "    clone Wallpaper from github ..."
 echo " ..."
 sudo git clone https://github.com/Michellesdreamplace/DEB_Wallpaper.git ~/Downloads/MDP_DEB_Wallpaper/
 echo "************************************************************"
-echo "    unpack wallpaper into global share folder ..."
+echo "    unpack Wallpaper into global share folder ..."
 echo " ..."
 sudo tar -vxf ~/Downloads/MDP_DEB_Wallpaper/MDP_Wallpaper.tar -C /usr/share/images/desktop-base/
 echo "************************************************************"
