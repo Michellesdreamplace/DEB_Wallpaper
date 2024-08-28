@@ -4,9 +4,9 @@
 ### Anzahl der Bilder: 3  
 ### Auflösung der Bilder: 1920x1080  
   
--➤ Lade die Datei „install_wallpaper.sh“ als RAW-Datei herunter,  
+-➤ Lade die Datei "install_wallpaper.sh" als RAW-Datei herunter,  
   
--➤ Gib der Datei „install_wallpaper.sh“ die Rechte zum Ausführen,  
+-➤ Gib der Datei "install_wallpaper.sh" die Rechte zum Ausführen,  
   
 -➤ Öffne ein Terminal und führe das Skript mit folgendem Befehl aus:  
   
