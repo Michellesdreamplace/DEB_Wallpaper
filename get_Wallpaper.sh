@@ -17,7 +17,7 @@ sudo git clone https://github.com/Michellesdreamplace/DEB_Wallpaper.git ~/Downlo
 echo "************************************************************"
 echo "*  unpack wallpaper into global share folder ...           *"
 echo "************************************************************"
-sudo tar -vxzf ~/Downloads/MDP_DEB_Wallpaper/MDP_Wallpaper.tar -C /usr/share/images/desktop-base/
+sudo tar -vxf ~/Downloads/MDP_DEB_Wallpaper/MDP_Wallpaper.tar -C /usr/share/images/desktop-base/
 echo "************************************************************"
 echo "*  clean up ...                                            *"
 echo "************************************************************"
