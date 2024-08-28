@@ -7,6 +7,8 @@
 -➤ Lade die Datei "install_wallpaper.sh" als RAW-Datei herunter,  
   
 -➤ Gib der Datei "install_wallpaper.sh" die Rechte zum Ausführen,  
+
+   z.B. im Terminal mit: ```chmod +x ./Downloads/install_wallpaper.sh```
   
 -➤ Öffne ein Terminal und führe das Skript mit folgendem Befehl aus:  
   
