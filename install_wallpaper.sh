@@ -1,4 +1,8 @@
 #!/bin/bash
+BENUTZER=$USER
+echo "Huhu $BENUTZER"
+HOMEVERZEICHNIS=$HOME
+echo "Dein Home-Verzeichnis ist: $HOMEVERZEICHNIS"
 echo "************************************************************"
 echo "    aktualisiere Paketdatenbank (Repository-Index) ..."
 echo " ..."
@@ -22,15 +26,15 @@ sudo apt install tar -y
 echo "************************************************************"
 echo "    klone Hintergrundbilder von GitHub ..."
 echo " ..."
-sudo git clone https://github.com/Michellesdreamplace/DEB_Wallpaper.git ~/Downloads/MDP_DEB_Wallpaper/
+sudo git clone https://github.com/Michellesdreamplace/DEB_Wallpaper.git $HOMEVERZEICHNIS/Downloads/MDP_DEB_Wallpaper/
 echo "************************************************************"
 echo "    entpacke Hintergrundbilder in globalen Freigabeordner ..."
 echo " ..."
-sudo tar -vxf ~/Downloads/MDP_DEB_Wallpaper/MDP_Wallpaper.tar -C /usr/share/images/desktop-base/
+sudo tar -xzf $HOMEVERZEICHNIS/Downloads/MDP_DEB_Wallpaper/MDP_Wallpaper.tar -C /usr/share/images/desktop-base/
 echo "************************************************************"
 echo "    aufräumen ..."
 echo " ..."
-sudo rm -r ~/Downloads/MDP_DEB_Wallpaper
+sudo rm -r $HOMEVERZEICHNIS/Downloads/MDP_DEB_Wallpaper
 echo "************************************************************"
 echo " "
 echo "    Fertig ..."
