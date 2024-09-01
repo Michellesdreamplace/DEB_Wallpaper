@@ -22,7 +22,7 @@ sudo git clone https://github.com/Michellesdreamplace/DEB_Wallpaper.git $HOMEVER
 echo "************************************************************"
 echo "    entpacke Hintergrundbilder in globalen Freigabeordner ..."
 echo " ..."
-sudo tar -xzf $HOMEVERZEICHNIS/Downloads/MDP_DEB_Wallpaper/MDP_Wallpaper.tar.gz -C /usr/share/images/desktop-base/
+sudo tar -xzf $HOMEVERZEICHNIS/Downloads/MDP_DEB_Wallpaper/MDP_Wallpaper.tar.gz -C /usr/share/images/desktop-base/MDP-Wallpaper/
 echo "************************************************************"
 echo "    aufräumen ..."
 echo " ..."
@@ -32,7 +32,7 @@ echo " "
 echo "    Fertig ..."
 echo " "
 echo "  Du findst die neuen Hintergrundbilder im globalen Verzeichnis unter:"
-echo "  /usr/share/images/desktop-base/"
+echo "  /usr/share/images/desktop-base/MDP-Wallpaper/"
 echo "  Viel Spaß damit :)"
 echo " "
 echo "************************************************************"
